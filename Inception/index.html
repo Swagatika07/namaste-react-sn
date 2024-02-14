@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css"/>
+    <title>Namaste React</title>
+  </head>
+  <body>
+    <div id="top">Top of the root</div>
+    <div id="root">
+      Hi Swagatikaa!!<!--This will be replaced by the rendered element i.e. parent in index.js-->
+    </div>
+    <div id="btm">Bottom of the root</div>
+
+    <!-- <h1>Hello JavaScript!</h1> -->
+    <!-- Now onwards we will use js to create elements like h1,h2 etc  -->
+    <!-- <script>
+           const heading = document.createElement("h1");
+           heading.innerHTML= "Hello JavaScript!"; -->
+
+    <!-- //    as we have to show the heading inside the root div, so first we have to 
+        //    define root -->
+    <!-- const root = document.getElementById("root");
+           root.appendChild(heading); -->
+    <!-- </script> -->
+    <!-- Below is one of the way to inject the required dependencies for react through cdn links -->
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+    <script src="./index.js">
+      
+    </script>
+  </body>
+</html>

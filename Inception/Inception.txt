@@ -1,0 +1,6 @@
+Note:
+When we crate element in React, that time it is considered as an object and while we put that object into render(),
+it gets converted to HTML tag and then moved to the DOM.
+!--------------Questions------------!
+1) What is CDN?
+2) What is Crossorigin?
